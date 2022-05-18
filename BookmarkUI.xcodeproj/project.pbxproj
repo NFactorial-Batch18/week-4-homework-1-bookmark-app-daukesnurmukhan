@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27502C3F2835030300E728AA /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27502C3E2835030300E728AA /* ListModel.swift */; };
 		27D1B998283438A40039E534 /* BookmarkUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1B997283438A40039E534 /* BookmarkUIApp.swift */; };
 		27D1B99A283438A40039E534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1B999283438A40039E534 /* ContentView.swift */; };
 		27D1B99C283438A60039E534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D1B99B283438A60039E534 /* Assets.xcassets */; };
 		27D1B99F283438A60039E534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D1B99E283438A60039E534 /* Preview Assets.xcassets */; };
+		27D1B9A628343DDA0039E534 /* BookmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1B9A528343DDA0039E534 /* BookmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27502C3E2835030300E728AA /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		27D1B994283438A40039E534 /* BookmarkUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookmarkUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D1B997283438A40039E534 /* BookmarkUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkUIApp.swift; sourceTree = "<group>"; };
 		27D1B999283438A40039E534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27D1B99B283438A60039E534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D1B99E283438A60039E534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27D1B9A528343DDA0039E534 /* BookmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				27D1B997283438A40039E534 /* BookmarkUIApp.swift */,
+				27502C3E2835030300E728AA /* ListModel.swift */,
+				27D1B9A528343DDA0039E534 /* BookmarkList.swift */,
 				27D1B999283438A40039E534 /* ContentView.swift */,
 				27D1B99B283438A60039E534 /* Assets.xcassets */,
 				27D1B99D283438A60039E534 /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D1B9A628343DDA0039E534 /* BookmarkList.swift in Sources */,
 				27D1B99A283438A40039E534 /* ContentView.swift in Sources */,
 				27D1B998283438A40039E534 /* BookmarkUIApp.swift in Sources */,
+				27502C3F2835030300E728AA /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
